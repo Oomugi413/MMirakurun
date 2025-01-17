@@ -3,7 +3,7 @@ services:
     build:
       context: ../
       dockerfile: docker/Dockerfile
-    image: Oomugi413/mirakurun:latest
+    image: Oomugi413/MMirakurun:latest
     container_name: mirakurun
     cap_add:
       - SYS_ADMIN
