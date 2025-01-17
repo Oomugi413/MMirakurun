@@ -175,7 +175,7 @@ export default class Tuner {
             let services: db.Service[] = null;
             let networkStreams: db.Channel[] = [];
 
-            setTimeout(() => tsFilter.close(), 20000);
+            setTimeout(() => tsFilter.close(), 35000);
 
             Promise.all<void>([
                 new Promise((resolve, reject) => {
