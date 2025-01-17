@@ -22,7 +22,7 @@ that you can include. We never know what is your environment.<br>
 ### Checkout
 
 ```
-git clone git@github.com:Chinachu/Mirakurun.git
+git clone git@github.com:Oomugi413/Mirakurun.git
 cd Mirakurun
 git checkout <branch>
 git submodule update --init
