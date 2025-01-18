@@ -317,7 +317,7 @@ export const put: Operation = async (req, res) => {
                 result.push({
                     name: c.channel,
                     type,
-                    channel: c.channel,
+                    channel: c.channel
                 });
                 ++newCount;
             }
@@ -334,7 +334,7 @@ export const put: Operation = async (req, res) => {
 
         const scannedChannelItems = generateChannelItems(scanConfig.scanMode, type, channel, services, scanConfig.setDisabledOnAdd);
         for (const scannedChannelItem of scannedChannelItems) {
-            result.push(scannedChannelItem);
+            (scannedChannelItem);
             ++newCount;
             res.write(`-> ${JSON.stringify(scannedChannelItem)}\n`);
         }
